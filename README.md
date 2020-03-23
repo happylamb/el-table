@@ -1,19 +1,20 @@
 # table-demo
 
-## Project setup
+## el-table使用案例：列自定义筛选，时间控件筛选
+#### 1.克隆项目至本地
+#### 2.cd到项目根目录，运行如下命令下载依赖：
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### 3.下载完成后运行
 ```
 npm run serve
 ```
+当表头时间控件条件变化时，在下面函数中做筛选（如请求后端）操作
 
-### Compiles and minifies for production
+```javascript
+timeChangeAction(){
+    console.log(this.value1);
+}
 ```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
